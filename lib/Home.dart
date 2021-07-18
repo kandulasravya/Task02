@@ -209,11 +209,28 @@ class InstaList extends StatelessWidget {
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Icon(
-                    FontAwesomeIcons.heart,
+                children: [ Padding(
+                  padding: EdgeInsets.only(
+                    right: 5,
                   ),
-                  SizedBox(width: 10,),
+                  child: Builder(
+                    builder: (context) => IconButton(
+                      icon: Icon(
+                        FontAwesomeIcons.heart,
+                        color: Colors.pink,
+                      ),
+                      onPressed: () {
+                        Scaffold.of(context).showSnackBar(SnackBar(
+                            content: Text(
+                              'You have liked the post',
+                              style: TextStyle(color: Colors.blue),
+                            ),
+                            backgroundColor: Colors.white));
+                      },
+                    ),
+                  ),
+                ),
+
                   Icon(
                       FontAwesomeIcons.comment,
                   ),
