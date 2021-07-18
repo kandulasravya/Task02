@@ -301,6 +301,7 @@ class InstaStories extends StatelessWidget {
             height: 60.0,
             decoration: BoxDecoration(
                 shape: BoxShape.circle,
+                border: Border.all(color: Colors.red),
                 image: DecorationImage(
                   fit: BoxFit.fill,
                   image:NetworkImage(dummyStoryData[index].profilepic),

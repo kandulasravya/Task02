@@ -42,7 +42,14 @@ class Search extends StatelessWidget {
 
     ),
     itemBuilder: (BuildContext context, int index) {
-    return Image.network(images[index]);
+    return Container( width: 100.0,
+    height:100.0,
+    decoration: BoxDecoration(
+        shape: BoxShape.rectangle,
+        image: DecorationImage(
+        fit: BoxFit.fill,
+        image: NetworkImage(images[index])),),
+    );
     },
     ),
     ),

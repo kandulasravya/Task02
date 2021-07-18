@@ -76,18 +76,103 @@ class _Profile extends State<Profile>{
     mainAxisSpacing: 2,
     shrinkWrap: true,
     children: [
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1542466500-dccb2789cbbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network('https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
-    Image.network("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
+    Container( width: 100.0,
+    height:100.0,
+    decoration: BoxDecoration(
+    shape: BoxShape.rectangle,
+    image: DecorationImage(
+    fit: BoxFit.fill,
+         image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+    ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+      Container( width: 100.0,
+        height:100.0,
+        decoration: BoxDecoration(
+          shape: BoxShape.rectangle,
+          image: DecorationImage(
+            fit: BoxFit.fill,
+            image:NetworkImage("https://images.unsplash.com/photo-1527377667-83c6c76f963f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWRkcmVzc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),),),
+      ),
+
     ],
     ),
    ], ),

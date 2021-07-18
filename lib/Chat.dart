@@ -87,6 +87,7 @@ Widget _myListView(BuildContext context) {
 
     itemCount: chatNames.length,
 shrinkWrap: true,
+    scrollDirection: Axis.vertical,
     itemBuilder: (context, index) {
       return ListTile(
           leading: CircleAvatar(
